@@ -11,12 +11,13 @@
         <div class="logo">
             <?php the_custom_logo(); ?>
         </div>
-        <nav>
+        <nav class="nav-menu">
             <?php wp_nav_menu(array(
                 'theme_location' => 'menu-1',
                 'menu_id' => 'primary-menu',
             )); ?>
         </nav>
+        <button class="menu-toggle">Menu</button>
         <div class="profile-menu">
             <!-- Profile menu with user image -->
         </div>
